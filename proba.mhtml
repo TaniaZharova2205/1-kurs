@@ -1,0 +1,114 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/Notepad/proba.html
+Subject: 
+Date: Thu, 23 Mar 2023 19:52:16 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--w5eHoF5lENfMWSA8XPasRnEGjvQmMCaE7laJibqUy2----"
+
+
+------MultipartBoundary--w5eHoF5lENfMWSA8XPasRnEGjvQmMCaE7laJibqUy2----
+Content-Type: text/html
+Content-ID: <frame-C4934ECC952061109530ADF2B1CF0FC6@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/Notepad/proba.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-4622d1=
+66-eba8-4b15-80b9-3c304a3f35e8@mhtml.blink" /></head><body><div id=3D"hler_=
+760464" class=3D"slgh"><ol class=3D"lines no-wrap"><li class=3D"alt1"><code=
+ class=3D"plain">GLvoid LoadGLTextures()</code></li><li class=3D"alt2"><cod=
+e class=3D"plain">{</code></li><li class=3D"alt1">&nbsp;&nbsp;&nbsp;&nbsp;<=
+code class=3D"comments">// =D0=97=D0=B0=D0=B3=D1=80=D1=83=D0=B7=D0=BA=D0=B0=
+ =D0=BA=D0=B0=D1=80=D1=82=D0=B8=D0=BD=D0=BA=D0=B8</code></li><li class=3D"a=
+lt2">&nbsp;&nbsp;&nbsp;&nbsp;<code class=3D"plain">AUX_RGBImageRec* texture=
+1;</code></li><li class=3D"alt1">&nbsp;&nbsp;&nbsp;&nbsp;<code class=3D"pla=
+in">texture1 =3D auxDIBImageLoad(</code><code class=3D"string">"Data/Font.b=
+mp"</code><code class=3D"plain">);</code></li><li class=3D"alt2">&nbsp;&nbs=
+p;&nbsp;&nbsp;<code class=3D"comments">// =D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=
+=BD=D0=B8=D0=B5 =D1=82=D0=B5=D0=BA=D1=81=D1=82=D1=83=D1=80=D1=8B</code></li=
+><li class=3D"alt1">&nbsp;&nbsp;&nbsp;&nbsp;<code class=3D"plain">glGenText=
+ures(1, &amp;texture[0]);</code></li><li class=3D"alt2">&nbsp;&nbsp;&nbsp;&=
+nbsp;<code class=3D"plain">glBindTexture(GL_TEXTURE_2D, texture[0]);</code>=
+</li><li class=3D"alt1">&nbsp;&nbsp;&nbsp;&nbsp;<code class=3D"plain">glTex=
+Parameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_LINEAR);</code></li><li c=
+lass=3D"alt2">&nbsp;&nbsp;&nbsp;&nbsp;<code class=3D"plain">glTexParameteri=
+(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);</code></li><li class=3D"al=
+t1">&nbsp;&nbsp;&nbsp;&nbsp;<code class=3D"plain">glTexImage2D(GL_TEXTURE_2=
+D, 0, 3, texture1-&gt;sizeX, texture1-&gt;sizeY, 0, GL_RGB, GL_UNSIGNED_BYT=
+E, texture1-&gt;data);</code></li><li class=3D"alt2">&nbsp;&nbsp;&nbsp;&nbs=
+p;<code class=3D"plain">glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, G=
+L_CLAMP_TO_BORDER);</code></li><li class=3D"alt1">&nbsp;&nbsp;&nbsp;&nbsp;<=
+code class=3D"plain">glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_C=
+LAMP_TO_BORDER);</code></li><li class=3D"alt2"><code class=3D"plain">}</cod=
+e></li></ol></div><div class=3D"slghcr">=D0=9F=D0=BE=D0=B4=D1=81=D0=B2=D0=
+=B5=D1=82=D0=BA=D0=B0 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BD=D0=
+=BE=D0=B3=D0=BE =D0=BA=D0=BE=D0=B4=D0=B0</div></body></html>
+------MultipartBoundary--w5eHoF5lENfMWSA8XPasRnEGjvQmMCaE7laJibqUy2----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4622d166-eba8-4b15-80b9-3c304a3f35e8@mhtml.blink
+
+@charset "utf-8";
+
+.slgh, .slgh code, .slgh ul, .slgh ol { margin: 0px; padding: 0px; border: =
+0px; outline: 0px; background: none; text-align: left; float: none; vertica=
+l-align: baseline; position: static; inset: auto; height: auto; width: auto=
+; line-height: 1.1em; font-family: "Courier New", Courier, monospace; font-=
+weight: normal; font-style: normal; font-size: 1em; min-height: auto; }
+
+.slgh { background: rgb(255, 255, 255); width: 99%; margin: 1em 0px; paddin=
+g: 1px; position: relative; overflow: auto hidden; }
+
+.slgh ul { list-style: none; margin-left: 0.5em; }
+
+.slgh ol { margin-left: 3.5em; }
+
+.slgh .bold { font-weight: bold; }
+
+.slgh .italic { font-style: italic; }
+
+.slgh .no-wrap li { white-space: pre; }
+
+.slgh li { padding-left: 0.5em; }
+
+.slgh li { border-left: 3px solid rgb(204, 204, 204); color: rgb(102, 102, =
+102); }
+
+.slgh li.alt1 { background: rgb(255, 255, 255); padding-left: 1em; }
+
+.slgh li.alt2 { background: rgb(248, 248, 248); padding-left: 1em; }
+
+.slgh .plain, .slgh .plain a { color: rgb(0, 0, 0); }
+
+.slgh .comments, .slgh .comments a { color: rgb(0, 130, 0); }
+
+.slgh .string, .slgh .string a { color: blue; }
+
+.slgh .keyword { color: rgb(0, 102, 153); font-weight: bold; }
+
+.slgh .preprocessor { color: gray; }
+
+.slgh .variable { color: rgb(170, 119, 0); }
+
+.slgh .value { color: rgb(0, 153, 0); }
+
+.slgh .functions { color: rgb(255, 20, 147); }
+
+.slgh .constants { color: rgb(0, 102, 204); }
+
+.slgh .script { background: yellow; }
+
+.slgh .color1, .slgh .color1 a { color: rgb(128, 128, 128); }
+
+.slgh .color2, .slgh .color2 a { color: rgb(255, 20, 147); }
+
+.slgh .color3, .slgh .color3 a { color: red; }
+
+.slghcr { margin: -0.5em 1.2em; }
+
+.slghcr a { color: rgb(170, 170, 170); background: rgb(255, 255, 255); text=
+-decoration: none; border-bottom: 1px dotted rgb(170, 170, 170); font-size:=
+ 0.6em; font-family: arial; }
+------MultipartBoundary--w5eHoF5lENfMWSA8XPasRnEGjvQmMCaE7laJibqUy2------
